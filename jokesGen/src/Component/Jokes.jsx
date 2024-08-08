@@ -6,7 +6,7 @@ const Jokes = () => {
   const fetchJokes = async () => {
     try {
       const response = await fetch(
-        "https://sv443.net/jokeapi/v2/joke/Programming?type=single"
+        "https://sv443.net/jokeapi/v2/joke/Programming?"
       );
       const res = await response.json();
       setJokes(res.Jokes);

@@ -10,7 +10,7 @@
   align-items: center;
 }
 .joke {
-  width: 40rem;
+  width: 35rem;
   height: 20rem;
   background-color: #1d8348;
   border-radius: 8px;
@@ -18,7 +18,7 @@
 }
 button {
   height: 3rem;
-  margin: 6rem;
+  margin-top: 8rem;
   background-color: #2ecc71;
   border-radius: 8px;
   color: #ffffff;
@@ -30,5 +30,5 @@ button {
   cursor: pointer;
 }
 button:hover {
-  opacity: 0.3;
+  opacity: 0.6;
 }
